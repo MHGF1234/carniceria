@@ -55,11 +55,34 @@
       color: #888;
       font-size: 0.9em;
     }
+	.tabla-boton {
+            border: none; /* Sin borde */
+            background-color: #4CAF50; /* Color de fondo */
+            color: white; /* Color del texto */
+            padding: 20px; /* Espaciado interno */
+            text-align: center; /* Alinear el texto */
+            cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+            display: inline-block; /* Mostrar en línea */
+            text-decoration: none; /* Sin subrayado */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+
+        .tabla-boton:hover {
+            background-color: #45a049; /* Color de fondo al pasar el mouse */
+        }
+
   </style>
 </head>
 <body>
 
   <div class="header">
+	<table border="1" style="border-collapse: collapse;">
+    <tr>
+        <td>
+            <a href="https://www.ejemplo.com" target="_blank" class="tabla-boton">Ir a Ejemplo</a>
+        </td>
+    </tr>
+</table>
     <h1>Carnicería Delicias de la Granja</h1>
     <p>Ubicados en San Cristóbal de las Casas, Chiapas</p>
   </div>
